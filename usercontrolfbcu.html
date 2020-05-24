@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usercontrol/Feedback</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" href="logo.png" type="image/x-icon">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #0a0a0a;
+}
+
+.right {
+  right: 0;
+  background-color: #1e29ab;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 20%;
+}
+button1 {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button1:hover {
+  opacity:1;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button2 {
+  background-color: #111;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button2:hover {
+  opacity:1;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+}@media screen and (max-width: 700px) {
+  .split {   
+    width: 100%;
+  }
+}
+
+
+</style>
+</head>
+<body>
+<div class="split left">
+
+  <div class="centered">
+    <img src="ratings.png" alt="Rate Us ">
+    <h2>Rate Us</h2>
+    <p>Help Us To Improve With your feed back and Ratings.</p>
+	<p>We Promise You In Support<p>
+	<a class="btn lightbox-91562460761458" style="margin-top: 16px"><button1>
+        Rate Us</button1>
+      </a>
+  </div>
+</div>
+<div class="split right">
+  <div class="centered">
+    <img src="usercontrol.png" alt="Contact Us">
+    <h2>contact Us</h2>
+    <p>Come In Touch With Us And Let Us To Solve Your Problem And Grow.</p>
+	<p>We Promise You That We Provide At Our Best</p>
+	<a href="contactnew.html"><button2>Contact Us</button2></a>
+  </div>
+</div>
+<script src ="https://form.jotform.me/static/feedback2.js" type="text/javascript"></script><script type="text/javascript">
+        var JFL_91562460761458 = new JotformFeedback({
+          formId: '91562460761458',
+          base: 'https://form.jotform.me/',
+          windowTitle: 'Rate Us',
+          background: '#FFA500',
+          fontColor: '#FFFFFF',
+          type: '1',
+          height: 500,
+          width: 700,
+          openOnLoad: false
+        });
+    </script>
+</body>
+</html> 

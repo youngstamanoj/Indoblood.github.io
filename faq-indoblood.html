@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FAQ || Indo Blood</title>
+<meta charset="UTF-8">
+<link rel="icon" href="logo.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  background: #9f00ff;
+  color: white;
+}
+.header h1{
+font-size: 40px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Style the top navigation bar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+#navbar p {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+#navbar p:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+    color: white;
+  background: black;
+}
+.footer a{
+  padding:5px;
+  color: white;
+}
+/* Style the top navigation bar */
+#topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+/* Style the top navigation bar links */
+#topnav marquee {
+  float: centre;
+  display: block;
+  color: white;
+  text-align: center;
+ 
+  text-decoration: none;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+.content {
+  padding: 16px;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px){
+ .header {
+padding: 40px,auto;
+}
+}
+@media screen and (max-width: 450px){
+.header h1 {
+font-size: 20px;
+}
+}
+@media screen and (max-width: 450px){
+.header  {
+font-size: 15px;
+}
+}
+@media screen and (max-width: 600px){
+.navbar p {
+font-size: 10px;
+}
+}
+@media screen and (max-width: 600px){
+.sidenav a {
+ padding: 4px 4px 4px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+}
+@media screen and(max-width:750px){
+.card{
+padding: 10px;
+}
+}
+@media screen and (max-width:750px){
+footer{
+font-size: 20px;
+}
+}.fa {
+  padding: 3px;
+  font-size: 15px;
+  width: 140px;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  size:20px;
+}
+</style>
+</head>
+<body>
+<div class="header" font-family="lucida-consolidata">
+<h1>FAQ- INDO BLOOD</h1>
+</div>
+<div id="navbar"  class="sticky">
+ <p><span style="cursor:pointer" onclick="openNav()">&#9776;More</span></p>
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="indoblood.html">Home</a>
+<a href="search.html">Donor Search</a>
+  <a href="team.html">The Team</a>
+<a class="active"href="">Faq</a>
+<a href="gallary.html">Gallary</a>
+<a href="usercontrol.html"> User Control</a>
+</div>
+
+<div id="topnav">
+<marquee>WELCOME TO THE FAQ PAGE OF THE INDO BLOOD</marquee>				
+</div>
+
+<div class="row">
+  <div class="side">
+  <h1>DONORS FAQ</h1>
+<p>
+<div class="card"> 
+1).WHO ARE ELGIBLE TO BECOME A DONOR IN INDO BLOOD?<br>
+Ans) The primary elgibilty rule for becoming a donor in the indo blood is that the person must be above the age of 18.<br>
+The donor must be without any long term or short term diseases.<br><br>
+The donor must be not habitad to the intake of any type of alkaloids or his blood shouldnt contain any alkaloid content<br>  <br>
+</div><div class="card"> 
+ 2) CAN MY NAME BE REMOVED IF I OPT TO COME OUT OF THE DONOR PROGRAMME?<br>
+Ans) Yes, ofcourse. If you wish your name to be removed from the donor programme, just write a mail to <strong>removemyname.indoblood@gmail.com</strong>.
+ Then your name will be removed from the donor programme and you will get a deletion email to your account<br><br></div>
+<div class="card"> 
+ 3)IF I OPT TO COME OUT OF DONOR PROGRAMME, CAN I RE-ENTER IT?<br>
+Ans) Yes , of course. You can re enter into the programme by regestering newly to the donor account<br><br></div>
+<div class="card"> 
+4)IF I ENTERED THE PROGRRAME HOW LONG MY NAME WILL BE STORED IN THE SERVERS?<br>
+Ans) Your name will stay till 2-4 years in our servers. If your name is going to be removed we will send you a mail to register newly into our donor programme<br><br></div>
+<div class="card"> 
+5)WHY WERE THE DONOR NAMES REMOVED FROM THE SERVERS AFTER THE SPAN OF 2-4 YEARS?<br>
+Ans) To increase the accuracy of the site we will remove the donors name  for 2-4 years (or) with their resubmission we will continue their name for the next term<br>
+We will do this thing to delete the inactive donors from the servers from the list and make it easy for a reciever to find a donor in short time.<br><br></div>
+<div class="card"> 
+6) CAN I COLLECT MONEY FROM THE RECIEVERS AS I AM GIVING THEM BLOOD?<br>
+Ans) If you do so your account will be permenantly blocked by our site and you cant enter it any more at any cost.<br>
+As if it was the site where the recieivers will get donors{(Who will donate)(Donate=Giving in sake of public service)}. 
+<br>If the recievers will give you (at their sake) then you can take it as a gift. But if you demand then the actions taken will be tottaly strict.<br><br></div>
+<div class="card"> 
+7)HOW MANY TIMES WILL I GET A CALL FOR DONOTING BLOOD?<br>
+Ans) It may be not sure but we will check that you will get a chance of donating blood only 3-4 times per year(As recomended by WHO)<br><br></div>
+<div class="card"> 
+8) I HAD DONATED BLOOD IN BLOOD BANKS, THEN HOW CAN I MAKE IT TO BE INFORMED TO YOU?<br>
+Ans) To inform that information to us we request you to write a mail to <strong>informaboutme.indoblood@gmail.com</strong><br><br></div>
+<div class="card"> 
+9) FOR DONATING BLOOD WHERE I SHOULD GO?<br>
+Ans) You will get the blood donation requests from the area which you had entered in the registration form. The zone of 50-100km from the entered area requests may come to you according to the availability<br><br></div>
+<div class="card"> 
+10) WHY IS PASSWORD REQUIRED IN THE REGISTRATION FORM?<br>
+ Ans) There was a valid reason for it. For updating your account info you must enter even the password in the mail to confirm that was you.<br><br> 
+</div>
+  </p>
+</div>
+  <div class="main">
+ <h1>RECIEVERS FAQ</h1>  
+<p>
+<div class="card"> 
+1.HOW CAN I COMPLAINT ABOUT A DONOR?<br>
+Ans) you can complaint about a donor by writing a mail to <strong>complaint.indoblood@gmail.com</strong><br><br> </div>
+<div class="card"> 
+2) HOW MUCH TIME DO IT TAKES ME TO FIND A DONOR?<br>
+Ans) Our servers will give you the information of donors with in the seconds and it may take very short time to find a donor<br><br></div>
+<div class="card"> 
+3) IF THERE WERE NO AVAILABLE DONORS HOW CAN I GET BLOOD<br>
+Ans) You can post in post for blood in the site to get donors. Our active Indo Blood members will recieve and respond about it
+<br>
+</div>
+   <div class="card"> 
+<br><br>
+YOUR QUESTION NOT LISTED HERE. THEN ADD A QUESTION BY WRITING A EMAIL TO <strong>customercare.indoblood@gmail.com</strong>
+ </div>
+</div>
+
+</div>
+<div class="footer">
+<p>THANK YOU</P>
+This site was devoloped and maintained by Indo Blood.Org<br>
+<a href="comingsoon.html">Check What Our Next Update Consists Of </a>
+<br><br>Go to<br>
+ <a  href="indoblood.html">Home</a><br>
+<a href="contactnew.html">Contact Us</a> <br>
+<a href="faq-indoblood.html">Faq</a>
+<br> <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.me/91568737073467',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+      Register as a Indo Blood member
+    </a><br><a href="javascript:void(
+        window.open(
+          'https://facebook.com/movementforIndoblood',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )" class="fa fa-facebook">Follow Us On Fb</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("navbar").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("navbar").style.marginLeft= "0";
+}
+</script>
+<script>
+setTimeout(function() { 
+      alert('Tip: Not Only By Writing Mail You Can Do Many By Our "User Control" Feature, Even You Can Update Your Account Status'); 
+}, 10000);
+</script>
+
+    
+    
+</body>
+</html>
+
